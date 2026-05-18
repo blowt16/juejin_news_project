@@ -34,7 +34,7 @@
           type="danger" 
           size="mini" 
           icon="cross"
-          @click="confirmDelete(item.id)"
+          @click="confirmDelete(item.historyId)"
         ></van-button>
       </div>
     </div>

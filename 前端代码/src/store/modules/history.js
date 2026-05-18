@@ -110,7 +110,7 @@ export const useHistoryStore = defineStore('history', {
     
     // 删除单条浏览历史
     removeHistory(id) {
-      this.history = this.history.filter(item => item.id !== id);
+      this.history = this.history.filter(item => item.historyId !== id);
       this.saveHistory();
     },
     
